@@ -40,7 +40,7 @@ const questions: Question[] = [
     answers: [
       {
         id: 1,
-        name: 'informācijas tehnoloģijā',
+        name: 'informācijas tehnoloģijās',
       },
       {
         id: 2,
