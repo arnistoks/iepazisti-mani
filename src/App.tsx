@@ -56,7 +56,9 @@ const App = () => {
                     {questions[questionNumber].answers.map((answer) => (
                       <div
                         key={answer.id}
-                        className={`answerBox ${answer.id === questions[questionNumber].correctAnswer && 'answerCorrect'} ${answer.id === chosenAnswer && chosenAnswer !== questions[questionNumber].correctAnswer && 'answerWrong'}`}
+                        className={`answerBox ${answer.id === questions[questionNumber].correctAnswer
+                        && 'answerCorrect'} ${answer.id === chosenAnswer
+                        && chosenAnswer !== questions[questionNumber].correctAnswer && 'answerWrong'}`}
                       >
                         {answer.name}
                       </div>
