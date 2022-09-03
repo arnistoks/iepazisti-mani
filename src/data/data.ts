@@ -113,7 +113,7 @@ const questions: Question[] = [
       },
       {
         id: 2,
-        name: 'Tehnsikās apskates nakti',
+        name: 'Tehniskās apskates nakti',
       },
       {
         id: 3,
